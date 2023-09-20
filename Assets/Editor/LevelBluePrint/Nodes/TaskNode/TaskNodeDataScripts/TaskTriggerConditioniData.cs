@@ -9,7 +9,7 @@ namespace LevelBluePrintUtil {
     [Serializable]
     public class TaskTriggerConditionData
 {
-        public enum CompleteCondition 
+        public enum TriggerCondition
         { 
             [LabelText("1.完成前置任务")]
             relate_task,
@@ -22,8 +22,15 @@ namespace LevelBluePrintUtil {
             [LabelText("5.结束某段剧情")]
             finish_scenario
         }
+        [Serializable]
+        public class RelateTask
+        {
+            public int id;
+            public string key;
+            public int obj_id;
+        }
 
-    
+
     [BoxGroup]
     [LabelText("触发条件ID")]
     [BoxGroup]

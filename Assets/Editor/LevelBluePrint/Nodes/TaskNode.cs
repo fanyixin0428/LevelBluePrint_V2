@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using LevelBluePrintUtil.Hidden;
 using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEditor;
 using UnityEngine;
 using XNode;
@@ -19,7 +20,35 @@ namespace LevelBluePrintUtil
 		[LabelText("任务简述")]
 		public string Comment;
 
+		public enum MainMenuOption
+		{
+			Option1,
+			Option2,
+		}
+		
+		[OdinSerialize]
+		public MainMenuOption mainMenuOption;
 
+		[Serializable]
+		public class SubMenuOption1
+		{
+			public string field1;
+			public int field2;
+    
+		}
+		[Serializable]
+		public class SubMenuOption2
+		{
+			public float field1;
+			public bool field2;
+		}
+		
+
+		[ShowIf("mainMenuOption", MainMenuOption.Option1),HideLabel]
+		public SubMenuOption1 subMenuOption1;
+
+		[ShowIf("mainMenuOption", MainMenuOption.Option2),HideLabel]
+		public SubMenuOption2 subMenuOption2;
 
 
 		[InfoBox("Check the boxes for the options you want to enable.")]

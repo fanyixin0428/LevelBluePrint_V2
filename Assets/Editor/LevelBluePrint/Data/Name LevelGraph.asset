@@ -140,12 +140,22 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: -760, y: -1960}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 4
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition:
   - id: 0
@@ -529,16 +539,26 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: -1624, y: -2088}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 3
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition:
   - id: 1
-    key: 0
+    key: 2
     obj_id: 111
   taskCompleteComdition:
   - index: 0
@@ -916,12 +936,22 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: 1256, y: -1464}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 6
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
@@ -1104,12 +1134,22 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: 1960, y: -1496}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 7
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
@@ -1339,12 +1379,22 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: -152, y: -1944}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 8
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
@@ -1527,12 +1577,22 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: mainMenuOption
+      Entry: 3
+      Data: 0
   graph: {fileID: 11400000}
   position: {x: 536, y: -1480}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 5
   Comment: 
+  mainMenuOption: 0
+  subMenuOption1:
+    field1: 
+    field2: 0
+  subMenuOption2:
+    field1: 0
+    field2: 0
   options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
