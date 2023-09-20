@@ -146,6 +146,7 @@ MonoBehaviour:
   next: {fileID: 0}
   index: 4
   Comment: 
+  options: []
   taskTriggerCondition:
   - id: 0
     key: 1
@@ -529,11 +530,12 @@ MonoBehaviour:
       Entry: 8
       Data: 
   graph: {fileID: 11400000}
-  position: {x: -1768, y: -1960}
+  position: {x: -1624, y: -2088}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 3
   Comment: 
+  options: []
   taskTriggerCondition:
   - id: 1
     key: 0
@@ -576,7 +578,7 @@ MonoBehaviour:
     taskId: 0
     relateMapId: 0
     taskOrder: 0
-    taskType: event_story
+    taskType: 
     lcName: 
     lcDetail: 
     entry: 1
@@ -920,6 +922,7 @@ MonoBehaviour:
   next: {fileID: 0}
   index: 6
   Comment: 
+  options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
   gotoCompass: []
@@ -1107,6 +1110,7 @@ MonoBehaviour:
   next: {fileID: 0}
   index: 7
   Comment: 
+  options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
   gotoCompass: []
@@ -1341,6 +1345,7 @@ MonoBehaviour:
   next: {fileID: 0}
   index: 8
   Comment: 
+  options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
   gotoCompass: []
@@ -1360,8 +1365,8 @@ MonoBehaviour:
     relateMapId: 100000
     taskOrder: 0
     taskType: event_story
-    lcName: LC_TASKevent_story_11111121_name
-    lcDetail: LC_TASKevent_story_11111121_desc
+    lcName: LC_TASK_event_story_11111121_name
+    lcDetail: LC_TASK_event_story_11111121_desc
     entry: 1
     issuer: 0
     triggerConditionDescription: 
@@ -1528,6 +1533,7 @@ MonoBehaviour:
   next: {fileID: 0}
   index: 5
   Comment: 
+  options: []
   taskTriggerCondition: []
   taskCompleteComdition: []
   gotoCompass: []

@@ -19,6 +19,20 @@ namespace LevelBluePrintUtil
 		[LabelText("任务简述")]
 		public string Comment;
 
+
+
+
+		[InfoBox("Check the boxes for the options you want to enable.")]
+		[ListDrawerSettings(Expanded = true)]
+		public List<Option> options;
+
+		[System.Serializable]
+		public class Option
+		{
+			public bool IsEnabled;
+			public string Name;
+		}
+
 		public enum TriggerConditionEnum
 		{
 			[LabelText("1.完成前置任务")]

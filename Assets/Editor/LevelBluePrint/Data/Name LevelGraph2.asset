@@ -141,7 +141,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   graph: {fileID: 11400000}
-  position: {x: 200, y: 0}
+  position: {x: -312, y: -408}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 2
@@ -169,11 +169,383 @@ MonoBehaviour:
   nodes:
   - {fileID: 3129920836079845395}
   - {fileID: -7513749446333289214}
+  - {fileID: 980833476639016192}
+  - {fileID: 2048809879360133101}
   basic:
     name: 
-    id: 0
-  genCount: 2
+    mapId: 0
+    levelType: 
+    LevelType:
+    - home_story
+    - main_story
+    - side_story
+    - event_story
+  scenarioStartId: 0
+  taskStartId: 0
+  scenarioIndex: 2
+  taskUniqueIDIndex: 1
+  taskIDIndex: 1
+  genCount: 6
   LastFocusPosition: {x: 0, y: 0}
+--- !u!114 &980833476639016192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab57a578695ca2479b95980e9f254aa, type: 3}
+  m_Name: "\u5267\u60C51"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 980833476639016192}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ports
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
+        XNode]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pre
+    - Name: $v
+      Entry: 7
+      Data: 2|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: pre
+    - Name: _node
+      Entry: 10
+      Data: 0
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: XNode.Node, XNode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Name: connections
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 1
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: next
+    - Name: $v
+      Entry: 7
+      Data: 4|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: next
+    - Name: _node
+      Entry: 10
+      Data: 0
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: XNode.Node, XNode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Name: connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 11400000}
+  position: {x: -1480, y: -632}
+  pre: {fileID: 0}
+  next: {fileID: 0}
+  index: 3
+  nodeScenarioIndex: 0
+  nodeScenarioBrief: 
+  nodeMultTex: 
+  scenarioTrigger: 2
+  configContent: 
+  luaFileName: 
+  memoContent: 
+  property:
+    comment: 
+    mergeTag: "\u65B0\u589E"
+    scenarioId: 1
+    mapId: 0
+    luaFile: 
+    triggerType: 0
+    cloudMapId: -99999
+    cloudId: -99999
+    taskId: -99999
+    taskStage: -99999
+    mapFirstEntryId: -99999
+    levelReach: -99999
+    blockInvisible: '[]'
+    cloudUnlockJsonArray: '[]'
+    item: '[]'
+    triggerFlag: -99999
+    pillarGroup: -99999
+    mapBlock: -99999
+    buildingId: -99999
+--- !u!114 &2048809879360133101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ee1647e0c314f43b8abe3aab0d10de, type: 3}
+  m_Name: Task
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 2048809879360133101}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: ports
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
+        XNode]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: pre
+    - Name: $v
+      Entry: 7
+      Data: 2|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: pre
+    - Name: _node
+      Entry: 10
+      Data: 0
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: XNode.Node, XNode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Name: connections
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 1
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: next
+    - Name: $v
+      Entry: 7
+      Data: 4|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: next
+    - Name: _node
+      Entry: 10
+      Data: 0
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: XNode.Node, XNode, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - Name: connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 11400000}
+  position: {x: -744, y: -744}
+  pre: {fileID: 0}
+  next: {fileID: 0}
+  index: 4
+  Comment: 
+  taskTriggerCondition: []
+  taskCompleteComdition: []
+  gotoCompass: []
+  coordinateGoto: []
+  levelGoto: []
+  localizationGoto: []
+  orderToolGoto: []
+  itemName: 
+  TreeViewOfInts: 010000000200000007000000
+  itemRewardList: []
+  property:
+    taskComment: 
+    mergeTag: "\u65B0\u589E"
+    csgen: '["default"]'
+    id: 1
+    taskId: 1
+    relateMapId: 0
+    taskOrder: 0
+    taskType: 
+    lcName: LC_TASK_1_name
+    lcDetail: LC_TASK_1_desc
+    entry: 1
+    issuer: 0
+    triggerConditionDescription: 
+    startCondition: 
+    taskTargetDescription: 
+    taskTarget: 
+    gotoDescription: 
+    gotoCompass: 
+    isCompletePerTask: 0
+    targetNumber: 0
+    targetLcDetail: 
+    targetIconDescription: 
+    targetIconAddress: 
+    targetIconType: '[]'
+    rewardDescription: 
+    reward: 
+    isInvisible: 0
+    mapGroupInfo: '{}'
+    giftBuilding: '[]'
+    giftBuildingIcon: '[]'
 --- !u!114 &3129920836079845395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,7 +687,11 @@ MonoBehaviour:
       Entry: 8
       Data: 
   graph: {fileID: 11400000}
-  position: {x: 0, y: 0}
+  position: {x: -1736, y: -616}
   pre: {fileID: 0}
   next: {fileID: 0}
   index: 1
+  levelName: 
+  levelId: 0
+  scenarioId: 0
+  taskId: 0
